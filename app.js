@@ -2,9 +2,9 @@
 const hbs = require('hbs')
 const path = require('path')
 const express = require("express")
-const port = 8000
+// const port = 8000
 //for host on custom domain
-// const port = process.env.PORT || 8000
+const port = process.env.PORT || 8000
 
 const publicPath = path.join(__dirname,"public")
 const viewPath = path.join(__dirname,"template/views")
