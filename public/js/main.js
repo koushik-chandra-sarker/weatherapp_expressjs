@@ -19,7 +19,7 @@ const getTemperature = async (e)=> {
     }else{
         document.getElementById('message').classList.add('data_hide')
         try{
-            let url =`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=b59d9911df95953e267b4224b1bc2f03`;
+            let url =`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=b59d9911df95953e267b4224b1bc2f03`;
             const response = await fetch(url)
             const data = await response.json();
             console.log(data)
