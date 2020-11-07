@@ -5,7 +5,9 @@
   "main": "index.js",
   "author": "koushik_stack",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1"
