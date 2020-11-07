@@ -11,3 +11,4 @@ Doing this project mainly for study purpose. This is a simple live weather app t
 ## Dependencies used:
  * express
  * hbs
+ * scss(css preprocessor)
