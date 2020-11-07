@@ -1,0 +1,13 @@
+{
+  "name": "weather_app_by_expressjs",
+  "version": "1.0.0",
+  "description": "Weather app by expressJs",
+  "main": "index.js",
+  "author": "koushik_stack",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  }
+}

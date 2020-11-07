@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #6643ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.row {
+  margin: 0;
+}
+
+.main_menu {
+  color: #fff;
+  background: #6643ff !important;
+  border-bottom: 1px solid #5e44cf;
+  padding: 1rem 0;
+}
+.main_menu .navbar {
+  background: #6643ff !important;
+}
+.main_menu .navbar a {
+  color: #fff;
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+}
+.main_menu .navbar a:hover {
+  color: #f5f123;
+}
+.main_menu .navbar .fa-snowflake {
+  color: #46c3db;
+}
+.main_menu .navbar .navbar-toggler {
+  background: #3d5af1;
+}
+.main_menu .navbar .nav-item a:hover {
+  color: #f5f123;
+}
+.main_menu .navbar-brand {
+  font-size: 2.5rem !important;
+}
+
+.main_header_left {
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main_header_left p {
+  font-size: 2rem;
+  color: #f2f2f2;
+}
+.main_header_left h1 {
+  margin-top: 0.8rem;
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: #f2f2f2;
+}
+.main_header_left button {
+  border: none;
+  color: #f2f2f2;
+  margin-top: 0.8rem;
+  padding: 0.8rem 1.2rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  background: #6643ff;
+  box-shadow: 2px 2px 15px #3f2a9e, -2px -2px 15px #3f2a9e;
+  outline: none;
+  border-radius: 2rem;
+}
+.main_header_left button:hover {
+  background: #603af6;
+  box-shadow: 1px 1px 15px #3f2a9e, -1px -1px 15px #3f2a9e;
+}
+
+.main_header_right {
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main_header_right img {
+  height: 100%;
+}
+
+.ab_h_left {
+  height: 65rem;
+}
+
+.ab_h_right {
+  height: 65rem;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10rem;
+  height: 100px;
+}
+.search .weather_search_box {
+  width: 50%;
+  position: absolute;
+}
+.search .weather_search_box #search_box {
+  border: none;
+  border-radius: 56px;
+  background: #6643ff;
+  box-shadow: inset 5px 5px 10px #301f78, inset -5px -5px 10px #9c67ff;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  line-height: 40px;
+  width: 100%;
+  float: left;
+  padding: 1rem 2rem;
+}
+.search .weather_search_box ::placeholder {
+  color: #241275;
+}
+.search .weather_search_box #searchBtn {
+  border: none;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  float: right;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #6d48ff, #5c3ce6);
+  box-shadow: 6px 6px 10px #442dab, -6px -6px 10px #8859ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  color: #f2f2f2;
+  font-size: 1.2rem;
+}
+.search .weather_search_box .fa-search {
+  position: absolute;
+  right: 2.2rem;
+  top: 2.3rem;
+  font-size: 1.5rem;
+  color: #3a12d6;
+}
+
+.weather_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.weather_content .temperature_info {
+  width: 50%;
+  background: linear-gradient(145deg, #6d48ff, #5c3ce6);
+  box-shadow: 6px 6px 10px #442dab, -6px -6px 10px #8859ff;
+  padding: 2rem;
+  transition: 1s;
+}
+.weather_content .temperature_info .topLayer p {
+  color: #f2f2f2;
+  font-size: 2rem;
+}
+.weather_content .temperature_info .mainLayer {
+  margin-top: 2rem;
+}
+.weather_content .temperature_info .mainLayer p {
+  color: #f2f2f2;
+  font-size: 2rem;
+}
+.weather_content .temperature_info .mainLayer i {
+  color: #f2f2f2;
+  font-size: 4rem;
+}
+.weather_content .temperature_info .mainLayer h5 {
+  color: #f2f2f2;
+}
+
+.data_hide {
+  display: none !important;
+}
+
+footer {
+  height: 100%;
+  border-top: 1px solid #5e44cf;
+  margin-top: auto;
+}
+footer p {
+  margin: 0;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 5rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .ab_h_right {
+    height: 50rem;
+  }
+}
+@media (max-width: 768px) {
+  .main_header_left {
+    height: auto;
+    margin-top: 2rem;
+  }
+  .main_header_left p {
+    font-size: 1.6rem;
+  }
+  .main_header_left h1 {
+    font-size: 2rem;
+  }
+  .main_header_left button {
+    padding: 0.5rem 1.8rem;
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+  }
+
+  .main_header_right {
+    height: auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .search .weather_search_box {
+    width: 90%;
+  }
+
+  .weather_content .temperature_info {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

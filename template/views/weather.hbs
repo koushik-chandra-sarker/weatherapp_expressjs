@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerLinks}}
+</head>
+<body>
+<div class="container-fluid main_menu">
+    {{>navbar}}
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class=" col-12 search align-items-center">
+            <div class="weather_search_box">
+                <form>
+                    <input type="text" placeholder="Enter your city name.." id="search_box">
+                    <input type="submit" value="" id="searchBtn"> <i class="fas fa-search"></i>
+                </form>
+            </div>
+        </div>
+        <div class=" col-12 weather_content align-items-center">
+            <div class="temperature_info ">
+                <div class="topLayer d-flex justify-content-around">
+                    <p id="day">Thursday</p>
+                    <p id="today_date">06 NOV</p>
+                </div>
+                <div id="message" class="mainLayer d-flex justify-content-center data_hide">
+                    <h5 id="massageTitle">Please Enter A City Name.</h5>
+                </div>
+                <div id="tempData" class="mainLayer d-flex justify-content-between data_hide">
+                    <p id="city">Dhaka | BD</p>
+                    <div class="temperature">
+                        <p id="temp"><span>0</span> <sup>o</sup>C</p>
+                    </div>
+                    <div id="weatherIcon"><i class="fas fa-cloud"></i></div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+{{>footer}}
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
