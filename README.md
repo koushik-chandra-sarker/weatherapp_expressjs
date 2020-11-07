@@ -12,3 +12,21 @@ Doing this project mainly for study purpose. This is a simple live weather app t
  * express
  * hbs
  * scss(css preprocessor)
+ 
+ ## Screenshots from the Browser
+ 
+ ## Home Page 
+ ![](screenshoot/homePage.png.jpg)
+ 
+ ## Weather Page
+ ![](screenshoot/weatherPage.png.jpg)
+ ![](screenshoot/weatherPage2.png.jpg)
+ ![](screenshoot/weatherPage3.jpg)
+ ![](screenshoot/weatherPage4.jpg)
+ 
+  ## Weather Page
+ ![](screenshoot/AboutPage.png.jpg)
+ 
+  ## Mobile View
+ ![](screenshoot/mobileViewHome.jpg)        ![](screenshoot/mobileViewWeater2.jpg) ![](screenshoot/mobileViewAbout.jpg)
+ 
