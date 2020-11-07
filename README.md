@@ -12,6 +12,7 @@ Doing this project mainly for study purpose. This is a simple live weather app t
  * express
  * hbs
  * scss(css preprocessor)
+ ## [Live Demo](https://stackweather.herokuapp.com)  
  
  ## Screenshots from the Browser
  
@@ -28,5 +29,7 @@ Doing this project mainly for study purpose. This is a simple live weather app t
  ![](screenshoot/AboutPage.png.jpg)
  
   ## Mobile View
- ![](screenshoot/mobileViewHome.jpg)        ![](screenshoot/mobileViewWeater2.jpg) ![](screenshoot/mobileViewAbout.jpg)
+ ![](screenshoot/mobileViewHome.jpg)        
+ ![](screenshoot/mobileViewWeater2.jpg) 
+ ![](screenshoot/mobileViewAbout.jpg)
  
